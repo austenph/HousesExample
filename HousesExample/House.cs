@@ -14,6 +14,13 @@ namespace HousesExample
         private int size;
         private int doors;
 
+        public House(string color, int rooms, int size, int doors ) //creating our constructor 
+        {
+            this.color = color;
+            this.rooms = rooms;
+            this.size = size;
+            this.doors = doors;
+        }
         //adding methods to our class
         public void Paint (string color)
         {
