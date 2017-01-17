@@ -13,5 +13,15 @@ namespace HousesExample
         private int rooms;
         private int size;
         private int doors;
+
+        //adding methods to our class
+        public void Paint (string color)
+        {
+            this.color = color;
+        }
+        public string CurrentColor( )
+        {
+            return color;
+        }
     }
 }
